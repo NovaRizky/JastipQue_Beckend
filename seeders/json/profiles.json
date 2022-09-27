@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "First",
+    "lastName": "Admin",
+    "birthDate": "Jakarta, 17-11-1995",
+    "gender": "Male",
+    "address": "Jakarta",
+    "phoneNumber": "021340123",
+    "UserId": 1
+  },
+  {
+    "firstName": "First",
+    "lastName": "Customer",
+    "birthDate": "Bandung, 17-12-1996",
+    "gender": "Female",
+    "address": "Bandung",
+    "phoneNumber": "021340123",
+    "UserId": 2
+  }
+]

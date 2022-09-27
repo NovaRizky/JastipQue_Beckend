@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Si Cepat",
+    "type": "Standard Shipping",
+    "price": 35000
+  },
+  {
+    "name": "JNT",
+    "type": "Standard Shipping",
+    "price": 40000
+  }
+]

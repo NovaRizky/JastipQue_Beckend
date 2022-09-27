@@ -1,0 +1,14 @@
+[
+  {
+    "username": "admin",
+    "email": "adm@mail.com",
+    "password": "$2a$10$iyh4uHx0ziFjRAZJqhH6jeVBOp8NypzR1rq5Dlr4lZzwNlPv5QwEa",
+    "role": "admin"
+  },
+  {
+    "username": "customer01",
+    "email": "cust@mail.com",
+    "password": "$2a$10$iyh4uHx0ziFjRAZJqhH6jeVBOp8NypzR1rq5Dlr4lZzwNlPv5QwEa",
+    "role": "customer"
+  }
+]

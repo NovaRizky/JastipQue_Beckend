@@ -1,0 +1,62 @@
+[debug] [2022-04-28T01:05:20.422Z] ----------------------------------------------------------------------
+[debug] [2022-04-28T01:05:20.425Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create JastipQue-Admin
+[debug] [2022-04-28T01:05:20.425Z] CLI Version:   10.7.1
+[debug] [2022-04-28T01:05:20.425Z] Platform:      win32
+[debug] [2022-04-28T01:05:20.426Z] Node Version:  v16.14.0
+[debug] [2022-04-28T01:05:20.450Z] Time:          Thu Apr 28 2022 09:05:20 GMT+0800 (Central Indonesia Time)
+[debug] [2022-04-28T01:05:20.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-28T01:05:20.466Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-28T01:05:20.466Z] > authorizing via signed-in user (novasumbawa20@gmail.com)
+[debug] [2022-04-28T01:05:29.416Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"JastipQue-Admin","name":"JastipQue-Admin"}
+[debug] [2022-04-28T01:05:30.928Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Thu, 28 Apr 2022 01:05:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1006","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-04-28T01:05:30.929Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-04-28T01:05:31.233Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at Request._callback (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:520:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:520:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:639:28)
+    at IncomingMessage.emit (node:events:532:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-04-28T01:10:57.279Z] ----------------------------------------------------------------------
+[debug] [2022-04-28T01:10:57.286Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create JastipQue-Admin
+[debug] [2022-04-28T01:10:57.287Z] CLI Version:   10.7.1
+[debug] [2022-04-28T01:10:57.288Z] Platform:      win32
+[debug] [2022-04-28T01:10:57.289Z] Node Version:  v16.14.0
+[debug] [2022-04-28T01:10:57.313Z] Time:          Thu Apr 28 2022 09:10:57 GMT+0800 (Central Indonesia Time)
+[debug] [2022-04-28T01:10:57.313Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-28T01:10:57.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-28T01:10:57.334Z] > authorizing via signed-in user (novasumbawa20@gmail.com)
+[debug] [2022-04-28T01:11:36.787Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"JastipQue-Admin","name":"y"}
+[debug] [2022-04-28T01:11:38.558Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Thu, 28 Apr 2022 01:11:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1005","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-04-28T01:11:38.558Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name must be at least 4 characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-04-28T01:11:38.917Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at module.exports (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at Request._callback (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:520:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:520:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\acer\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:639:28)
+    at IncomingMessage.emit (node:events:532:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.

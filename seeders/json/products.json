@@ -1,0 +1,38 @@
+[
+  {
+    "name": "PC Gaming Core I5 9400/RX 570 4 GB/DDR4 16 GB/Samsung 24 Curved",
+    "description": "PC gaming rakitan keluaran terbaru",
+    "imageUrl": "https://br.atsit.in/id/wp-content/uploads/2022/01/npd-group-pengeluaran-konsumen-untuk-perangkat-keras-dan-aksesori-pc-gaming-meningkat-25-pada-tahun-2021.jpg",
+    "status": "Active",
+    "price": 10000000,
+    "weight": 30,
+    "stock": 10,
+    "CategoryId": 2,
+    "EventId": 1,
+    "StoreId": 1
+  },
+  {
+    "name": "ROG Zephyrus Duo 15 SE",
+    "description": "Laptop Gaming Dua Layar Paling Berharga",
+    "imageUrl": "https://pict-c.sindonews.net/dyn/620/pena/news/2021/04/28/123/411468/rog-zephyrus-duo-15-se-laptop-gaming-dua-layar-paling-bertenaga-ksg.jpg",
+    "status": "Active",
+    "price": 15000000,
+    "weight": 15,
+    "stock": 5,
+    "CategoryId": 3,
+    "EventId": 1,
+    "StoreId": 1
+  },
+  {
+    "name": "Motherboard Socket 1700 MSI Z690 Godlike",
+    "description": "Rekomendasi motherboard bertenaga super",
+    "imageUrl": "https://i0.wp.com/www.murdockcruz.com/wp-content/uploads/2019/06/MSI-MEG-X570-Godlike-Feat.jpg?fit=650%2C420&ssl=1",
+    "status": "Active",
+    "price": 12500000,
+    "weight": 10,
+    "stock": 7,
+    "CategoryId": 1,
+    "EventId": 2,
+    "StoreId": 1
+  }
+]

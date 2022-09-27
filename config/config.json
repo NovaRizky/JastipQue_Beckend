@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "nova22222",
+    "database": "Project-JastipQueee",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Violin@0407",
+    "database": "Project-JastipQue-Test",
+    "host": "localhost",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
